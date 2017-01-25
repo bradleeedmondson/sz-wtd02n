@@ -4,7 +4,7 @@
 
 
 metadata {
-	definition (name: "Securifi Moisture Sensor", namespace: "bradleeedmondson", author: "bradleeedmondson") {
+	definition (name: "Securifi flood sensor SZ-WTD02N", namespace: "bradleeedmondson", author: "bradleeedmondson") {
 		capability "Water Sensor"
 		capability "Sensor"
         capability "Configuration"
