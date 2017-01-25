@@ -41,10 +41,10 @@ metadata {
 		details(["moisture","tamperSwitch"])
 	}
 }
-> >
+
 def configure() {
 	log.debug("** PIR02 ** configure called for device with network ID ${device.deviceNetworkId}")
-> >
+
 	String zigbeeId = swapEndianHex(device.hub.zigbeeId)
 	log.debug "Configuring Reporting, IAS CIE, and Bindings."
 	def configCmds = [
